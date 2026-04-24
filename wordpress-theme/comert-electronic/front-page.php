@@ -1,0 +1,20 @@
+<?php get_header(); ?>
+<main class="container">
+  <section class="hero">
+    <span class="pill">Mobile-first • Proiect didactic UTM</span>
+    <h1>Magazin demo pentru materia „Comerț electronic”</h1>
+    <p>Site-ul este realizat în stil modern/minimal, cu focus pe afișare corectă pe mobil și cu metode demo de monetizare: cumpărare unică, abonament și rent equipment.</p>
+  </section>
+
+  <section class="grid products">
+    <article class="card"><img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/tech-desk.svg'); ?>" alt="Birou inteligent" /><h3>Desk Hub Ultra</h3><p class="meta">Organizare smart pentru birou.</p><p class="price">899 RON</p><button class="btn" onclick="demoCheckout('One-time purchase','Desk Hub Ultra')">Cumpără acum</button></article>
+    <article class="card"><img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/headphones.svg'); ?>" alt="Căști wireless" /><h3>Wave ANC Pro</h3><p class="meta">Sunet premium pentru studiu.</p><p class="price">499 RON</p><button class="btn" onclick="demoCheckout('One-time purchase','Wave ANC Pro')">Cumpără acum</button></article>
+    <article class="card"><img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/smartwatch.svg'); ?>" alt="Smartwatch" /><h3>Pulse Watch</h3><p class="meta">Monitorizare activitate zilnică.</p><p class="price">749 RON</p><button class="btn" onclick="demoCheckout('One-time purchase','Pulse Watch')">Cumpără acum</button></article>
+  </section>
+
+  <section class="card" style="margin-top:1rem;">
+    <h2>Important</h2>
+    <p class="notice">Acest site are scop strict didactic. Plățile sunt simulate, fără procesare reală de card.</p>
+  </section>
+</main>
+<?php get_footer(); ?>

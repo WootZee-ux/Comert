@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="#0b1020"/>
+<path d="M300 470a300 300 0 0 1 600 0" fill="none" stroke="#93c5fd" stroke-width="40"/>
+<rect x="260" y="430" width="120" height="220" rx="40" fill="#2563eb"/>
+<rect x="820" y="430" width="120" height="220" rx="40" fill="#1d4ed8"/>
+<circle cx="600" cy="300" r="80" fill="#38bdf8" opacity=".7"/>
+<text x="600" y="730" fill="#dbeafe" font-size="72" text-anchor="middle" font-family="Arial">Wireless Sound</text>
+</svg>
